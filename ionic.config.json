@@ -1,0 +1,7 @@
+{
+  "name": "lvbp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
