@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { TeamsPage } from './teams.page';
+import { TeamComponent } from './components/team/team.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [TeamsPage]
+  declarations: [TeamsPage, TeamComponent]
 })
-export class TeamsPageModule {}
+export class TeamsPageModule { }

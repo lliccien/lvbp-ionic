@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Team } from '../../core/interfaces/team';
+import { LvbpService } from '../../core/services/lvbp.service';
 
 @Component({
   selector: 'app-teams',
@@ -7,9 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamsPage implements OnInit {
 
-  constructor() { }
+  teams: Team[];
+
+  constructor(private lvbpService: LvbpService) { }
 
   ngOnInit() {
+    this.fetchTeams();
+
+  }
+
+
+  fetchTeams() {
+    this.lvbpService.getTeams()
+      .subscribe(teams => {
+        this.teams = teams;
+      });
+
   }
 
 }
