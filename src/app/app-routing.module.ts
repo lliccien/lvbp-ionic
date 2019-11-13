@@ -8,7 +8,7 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   { path: 'league', loadChildren: () => import('./pages/league/league.module').then(m => m.LeaguePageModule) },
-  { path: 'teams', loadChildren: () => import('./pages/teams/teams.module').then(m => m.TeamsPageModule) }
+  { path: 'teams', loadChildren: () => import('./pages/teams/teams.module').then(m => m.TeamsPageModule) },
 ];
 
 @NgModule({

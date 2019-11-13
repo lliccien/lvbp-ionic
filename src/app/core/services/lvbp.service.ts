@@ -18,4 +18,8 @@ export class LvbpService {
   getTeams() {
     return this.http.get<Team[]>(`${environment.bUrl}/teams`);
   }
+
+  getTeamById(id: string) {
+    return this.http.get<Team>(`${environment.bUrl}/teams/${id}`);
+  }
 }
