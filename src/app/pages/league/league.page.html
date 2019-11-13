@@ -8,5 +8,40 @@
 </ion-header>
 
 <ion-content>
+  <ion-card>
+    <img class="img-league" [src]="info?.logo" alt="">
+    <ion-card-header>
+      <ion-card-title>
+        {{ info?.name }}
+      </ion-card-title>
+    </ion-card-header>
+    <ion-list>
+      <ion-item>
+        <ion-label>
+          Fundada: {{ info?.founded }}
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Pais: {{ info?.country }}
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Continente: {{ info?.continent }}
+        </ion-label>
+      </ion-item>
+      <ion-item [href]="info?.website">
+        <ion-label>
+          sitio Web:{{ info?.website }}
+        </ion-label>
+      </ion-item>
+      <!-- <ion-item>
+        <ion-label>
+          sitio Web: <a [href]="info?.website">{{ info?.website }}</a>
+        </ion-label>
+      </ion-item> -->
+    </ion-list>
 
+  </ion-card>
 </ion-content>
