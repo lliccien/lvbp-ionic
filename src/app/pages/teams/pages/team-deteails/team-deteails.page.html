@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{team?.tradename}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-card>
+    <ion-card-header>
+      <img [src]="team?.logo">
+    </ion-card-header>
+  </ion-card>
+  <ion-list>
+    <ion-list-header>
+      <h2>{{ team?.offical_name }}</h2>
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>
+        Fundado: {{ team?.founded }}
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>Estadio: {{ team?.stadium?.name }}</h2>
+        <h3>Capadidad: {{ team?.stadium?.capacity }}</h3>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>Pesidente: {{ team?.president }}</h2>
+        <h2>Manager: {{ team?.manager }}</h2>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-text-center">
+        <div>Campeonatos</div>
+      </ion-col>
+      <ion-col class="ion-text-center">
+        <div>Subcampeonatos</div>
+      </ion-col>
+      <ion-col class="ion-text-center">
+        <div>Series del Caribe</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="ion-text-center">
+        <div>
+          <ion-chip>
+            <ion-label>{{ team?.championships }}</ion-label>
+          </ion-chip>
+        </div>
+      </ion-col>
+      <ion-col class="ion-text-center">
+        <div>
+          <ion-chip>
+            <ion-label>{{ team?.runners_up }}</ion-label>
+          </ion-chip>
+        </div>
+      </ion-col>
+      <ion-col class="ion-text-center">
+        <div>
+          <ion-chip>
+            <ion-label>{{ team?.caribbean_series }}</ion-label>
+          </ion-chip>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
