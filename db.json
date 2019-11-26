@@ -1,0 +1,165 @@
+{
+    "info": {
+        "name": "Liga Venezolana de Béisbol Profesional",
+        "logo": "https://tjrn.sfo2.cdn.digitaloceanspaces.com/assets/lvbp/img/site/foot_logo.png",
+        "founded": "1945",
+        "country": "Venezuela",
+        "continent": "Sur America",
+        "website": "http://www.lvbp.com"
+    },
+    "teams": [
+        {
+            "id": 1,
+            "logo": "https://lvbp.com/assets/img/teams/4_200C.png",
+            "offical_name": "Caracas Base Ball Club C.A.",
+            "tradename": "Leones del Caracas",
+            "founded": "19 de Agosto de 1942",
+            "stadium": {
+                "name": "Universitario de Caracas UCV",
+                "capacity": 20723
+            },
+            "president": "Luis Ávila",
+            "manager": "Harry Guánchez",
+            "website": "http://www.leones.com",
+            "championships": 20,
+            "runners_up": 16,
+            "caribbean_series": 2
+        },
+        {
+            "id": 2,
+            "logo": "https://lvbp.com/assets/img/teams/3_200C.png",
+            "offical_name": "Navegantes del Magallanes B.B.C.",
+            "tradename": "Navegantes del Magallanes",
+            "founded": "Comienzos de 1941",
+            "stadium": {
+                "name": "José Bernardo Pérez de Valencia",
+                "capacity": 16000
+            },
+            "president": "Maximiliano Branger",
+            "manager": "Enrique 'Che' Reyes",
+            "website": "http://www.magallanesbbc.com.ve",
+            "championships": 12,
+            "runners_up": 11,
+            "caribbean_series": 2
+        },
+        {
+            "id": 3,
+            "logo": "https://lvbp.com/assets/img/teams/5_200C.png",
+            "offical_name": "Tiburones de La Guaira B.B.C.",
+            "tradename": "Tiburones de La Guaira",
+            "founded": "31 de octubre de 1962",
+            "stadium": {
+                "name": "Universitario de Caracas UCV",
+                "capacity": 20723
+            },
+            "president": "Francisco Arocha Hernández",
+            "manager": "Renny Osuna",
+            "website": "http://www.tiburones.net",
+            "championships": 7,
+            "runners_up": 6,
+            "caribbean_series": 0
+        },
+        {
+            "id": 4,
+            "logo": "https://lvbp.com/assets/img/teams/2_200C.png",
+            "offical_name": "Águilas del Zulia B.B.C.",
+            "tradename": "Águilas del Zulia",
+            "founded": "1° de marzo de 1969",
+            "stadium": {
+                "name": "Luis Aparicio 'El Grande'",
+                "capacity": 24000
+            },
+            "president": "Luis Rodolfo Machado",
+            "manager": "Marco Davalillo",
+            "website": "http://www.aguilas.com",
+            "championships": 6,
+            "runners_up": 4,
+            "caribbean_series": 2
+        },
+        {
+            "id": 5,
+            "logo": "https://lvbp.com/assets/img/teams/8_200C.png",
+            "offical_name": "Bravos de Margarita B.B.C.",
+            "tradename": "Bravos de Margarita",
+            "founded": "Abril de 1991",
+            "stadium": {
+                "name": "stadium Nueva Esparta",
+                "capacity": 18000
+            },
+            "president": "Tobías Carrero",
+            "manager": "Alex Núñez",
+            "website": "http://www.bravosdemargarita.com",
+            "championships": 0,
+            "runners_up": 0,
+            "caribbean_series": 0
+        },
+        {
+            "id": 6,
+            "logo": "https://lvbp.com/assets/img/teams/6_200C.png",
+            "offical_name": "Cardenales de Lara B.B.C.",
+            "tradename": "Cardenales de Lara",
+            "founded": "15 de octubre de 1965",
+            "stadium": {
+                "name": "Antonio Herrera Gutiérrez",
+                "capacity": 22000
+            },
+            "president": "Humberto Oropeza",
+            "manager": "Luis Ugueto",
+            "website": "http://www.cardenalesdelara.com/",
+            "championships": 5,
+            "runners_up": 11,
+            "caribbean_series": 0
+        },
+        {
+            "id": 7,
+            "logo": "https://lvbp.com/assets/img/teams/7_200C.png",
+            "offical_name": "Caribes de Anzoátegui B.B.C.",
+            "tradename": "Caribes de Anzoátegui",
+            "founded": "15 de julio de 1987",
+            "stadium": {
+                "name": "Alfonso 'Chico' Carrasquel",
+                "capacity": 18000
+            },
+            "president": "Rafael Gruszka",
+            "manager": "Jackson Melián",
+            "website": "http://www.caribesbbc.com",
+            "championships": 3,
+            "runners_up": 2,
+            "caribbean_series": 0
+        },
+        {
+            "id": 8,
+            "logo": "https://lvbp.com/assets/img/teams/1_200C.png",
+            "offical_name": "Tigres de Aragua B.B.C.",
+            "tradename": "Tigres de Aragua",
+            "founded": "15 de octubre de 1965",
+            "stadium": {
+                "name": "José Pérez Colmenares",
+                "capacity": 12647
+            },
+            "president": "Carlos Guillén",
+            "manager": "Clemente Álvarez",
+            "website": "http://www.tigresdearaguabbc.com",
+            "championships": 10,
+            "runners_up": 9,
+            "caribbean_series": 1
+        },
+        {
+            "id": 9,
+            "logo": "https://lvbp.com/assets/img/teams/1_200C.png",
+            "offical_name": "Tigres de Aragua B.B.C.",
+            "tradename": "Tigres de Aragua",
+            "founded": "15 de octubre de 1965",
+            "stadium": {
+                "name": "José Pérez Colmenares",
+                "capacity": 12647
+            },
+            "president": "Carlos Guillén",
+            "manager": "Clemente Álvarez",
+            "website": "http://www.tigresdearaguabbc.com",
+            "championships": 10,
+            "runners_up": 9,
+            "caribbean_series": 1
+        }
+    ]
+}
